@@ -1,6 +1,7 @@
 body {
   background: url(background.gif) repeat;
   color: #eee !important;
+  font-family: 'Helvetica Neue', 'Lato', Helvetica, Arial, sans-serif !important;
 }
 
 h2 {
@@ -13,6 +14,10 @@ hr {
 
 .my-work {
     margin: 2em 0 1em;
+}
+
+.my-work small {
+    font-size: 46%;
 }
 
 .project-heading {
