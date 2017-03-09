@@ -1,15 +1,14 @@
 body {
   background: url(background.gif) repeat;
-  color: #eee !important;
-  font-family: 'Helvetica Neue', 'Lato', Helvetica, Arial, sans-serif !important;
 }
 
-h2 {
-    font-weight: bold !important;
+h1, h2, h3, h4, h5, h6 p, div {
+  color: #eee;
+  font-family: 'Helvetica Neue', 'Lato', Helvetica, Arial, sans-serif;
 }
 
-hr {
-    border-top-color: #3e3e3e !important;
+hr.divider {
+    border-top-color: #3e3e3e;
 }
 
 .my-work {
@@ -30,11 +29,7 @@ hr {
 
 .links p {
     font-size: 1.9em;
-    margin: 1em 0 !important;
-}
-
-.divider {
-    margin: 3em 0 6em;
+    margin: 1em 0;
 }
 
 .glyphicon {
@@ -46,6 +41,10 @@ hr {
     border-radius: 5px;
     margin-bottom: 0;
     padding: 0.5em;
+}
+
+.pane.top {
+    margin: 3em 0 6em;
 }
 
 .row.top {
