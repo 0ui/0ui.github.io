@@ -40,16 +40,16 @@ a {
 }
 
 .heading {
-  margin-top: 32px;
-  margin-bottom: 32px;
-  font-size: 44px;
+  margin-top: 48px;
+  margin-bottom: 48px;
+  font-size: 46px;
   text-align: center;
 }
 
 .heading-2 {
-  margin-top: 32px;
-  margin-bottom: 32px;
-  font-size: 28px;
+  margin-top: 16px;
+  margin-bottom: 24px;
+  font-size: 26px;
   text-align: left;
 }
 
@@ -70,12 +70,16 @@ a {
 }
 
 .heading-3 {
+  margin-top: 16px;
+  margin-bottom: 16px;
   font-size: 20px;
   font-weight: 300;
   text-align: center;
 }
 
 .heading-bar {
+  margin-top: 16px;
+  margin-bottom: 16px;
   font-size: 38px;
   text-align: center;
 }
@@ -135,10 +139,27 @@ a {
 .work-example-heading {
   margin-top: -16px;
   margin-bottom: 16px;
+  padding: 16px;
+  border-radius: 3px;
+  background-color: hsla(0, 0%, 68%, .1);
   color: #ddd;
   font-size: 16px;
+  line-height: 1.5em;
   font-weight: 300;
   text-align: left;
+}
+
+.unordered-list {
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+.list-item {
+  line-height: 1.5em;
+}
+
+.paragraph {
+  line-height: 1.5em;
 }
 
 @media (max-width: 991px) {
