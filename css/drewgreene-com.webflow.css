@@ -206,9 +206,6 @@ a {
     -ms-flex-preferred-size: auto;
     flex-basis: auto;
   }
-  .work-example-heading {
-    margin-top: -32px;
-  }
   .work-example-divider {
     height: 0px;
   }
@@ -223,4 +220,3 @@ a {
     min-width: 100%;
   }
 }
-
